@@ -1,0 +1,10 @@
+.env
+.git/
+
+data/
+work/
+
+# Cache and autosave
+**/__pycache__
+**/*.pyc
+**/.ipynb_checkpoints

@@ -1,0 +1,10 @@
+services:
+  jupyter: # core
+    build: .
+    image: python-training:1.0
+    ports:
+      - "${JUPYTER_PORT:-8888}:8888"
+    volumes:
+      - ./work:/workspace/work
+      - ./data:/workspace/data
+    env_file: .env
