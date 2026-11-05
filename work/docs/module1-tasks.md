@@ -45,10 +45,10 @@ There is no solutions file for this stage. This checklist guides the work and do
 
 ### Lab 1.3: Exception handling
 
-- [ ] **R-1.3** Research: why catching the most specific error matters (Scope 1.3).
-- [ ] **B-1.3.1** Write `safe_to_float(value)` that returns a float or raises a clear message for bad input (Lab 1.3 step 1).
-- [ ] **B-1.3.2** Feed it valid numbers, empty strings, letters, and `None`; catch specific exceptions and count each type (Lab 1.3 step 2).
-- [ ] **B-1.3.3** Demonstrate `else` and `finally` with a real example (Lab 1.3 step 3).
+- [x] **R-1.3** Research: why catching the most specific error matters (Scope 1.3).
+- [x] **B-1.3.1** Write `safe_to_float(value)` that returns a float or raises a clear message for bad input (Lab 1.3 step 1).
+- [x] **B-1.3.2** Feed it valid numbers, empty strings, letters, and `None`; catch specific exceptions and count each type (Lab 1.3 step 2).
+- [x] **B-1.3.3** Demonstrate `else` and `finally` with a real example (Lab 1.3 step 3).
 
 ### Lab 1.4: Text files
 
