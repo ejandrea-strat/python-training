@@ -52,11 +52,11 @@ There is no solutions file for this stage. This checklist guides the work and do
 
 ### Lab 1.4: Text files
 
-- [ ] **R-1.4** Research: where files written inside the container appear on the host (Scope 1.4).
-- [ ] **B-1.4.1** Create `orders_raw.txt` in the mounted `data/` folder: at least 30 lines, 5 broken lines, one blank line, one line with extra whitespace (Lab 1.4 step 1).
-- [ ] **B-1.4.2** Read it line by line with `with open(...)`, writing valid rows to `clean_orders.csv` and invalid rows to `rejects.log` with line number and reason (Lab 1.4 step 2).
-- [ ] **B-1.4.3** Handle a missing input file (Lab 1.4 step 3).
-- [ ] **B-1.4.4** Confirm the output files appear on the host machine (Lab 1.4 step 4).
+- [x] **R-1.4** Research: where files written inside the container appear on the host (Scope 1.4).
+- [x] **B-1.4.1** Create `orders_raw.txt` in the mounted `data/` folder: at least 30 lines, 5 broken lines, one blank line, one line with extra whitespace (Lab 1.4 step 1).
+- [x] **B-1.4.2** Read it line by line with `with open(...)`, writing valid rows to `clean_orders.csv` and invalid rows to `rejects.log` with line number and reason (Lab 1.4 step 2).
+- [x] **B-1.4.3** Handle a missing input file (Lab 1.4 step 3).
+- [x] **B-1.4.4** Confirm the output files appear on the host machine (Lab 1.4 step 4).
 
 ### Lab 1.5: Functions
 
