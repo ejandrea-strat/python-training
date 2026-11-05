@@ -67,9 +67,9 @@ There is no solutions file for this stage. This checklist guides the work and do
 
 ### Lab 1.6: Lambda functions
 
-- [ ] **R-1.6** Research: when not to use a lambda (Scope 1.6).
-- [ ] **B-1.6.1** Sort a list of order dictionaries by amount descending with `sorted(..., key=lambda ...)` (Lab 1.6 step 1).
-- [ ] **B-1.6.2** Apply a 12% tax with `map` and a lambda, then redo it as a list comprehension (Lab 1.6 step 2).
+- [x] **R-1.6** Research: when not to use a lambda (Scope 1.6).
+- [x] **B-1.6.1** Sort a list of order dictionaries by amount descending with `sorted(..., key=lambda ...)` (Lab 1.6 step 1).
+- [x] **B-1.6.2** Apply a 12% tax with `map` and a lambda, then redo it as a list comprehension (Lab 1.6 step 2).
 
 ### Lab 1.7: Object-oriented programming
 
