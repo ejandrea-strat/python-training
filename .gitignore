@@ -1,6 +1,7 @@
 .env
 
 data/
+work/scratch/
 work/*.avro
 
 __pycache__/

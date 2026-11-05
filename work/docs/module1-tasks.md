@@ -60,10 +60,10 @@ There is no solutions file for this stage. This checklist guides the work and do
 
 ### Lab 1.5: Functions
 
-- [ ] **R-1.5** Research: the mutable-default-argument trap (Scope 1.5).
-- [ ] **B-1.5.1** Refactor the Lab 1.4 script into at least four documented functions (`read_lines`, `parse_record`, `validate_record`, `write_outputs`) (Lab 1.5 step 1).
-- [ ] **B-1.5.2** Show one function with a default argument and one called with keyword arguments (Lab 1.5 step 2).
-- [ ] **B-1.5.3** Demonstrate the mutable-default-argument trap and the `None` fix (Lab 1.5 step 3).
+- [x] **R-1.5** Research: the mutable-default-argument trap (Scope 1.5).
+- [x] **B-1.5.1** Refactor the Lab 1.4 script into at least four documented functions (`read_lines`, `parse_record`, `validate_record`, `write_outputs`) (Lab 1.5 step 1).
+- [x] **B-1.5.2** Show one function with a default argument and one called with keyword arguments (Lab 1.5 step 2).
+- [x] **B-1.5.3** Demonstrate the mutable-default-argument trap and the `None` fix (Lab 1.5 step 3).
 
 ### Lab 1.6: Lambda functions
 
