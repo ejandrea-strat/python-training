@@ -73,23 +73,23 @@ There is no solutions file for this stage. This checklist guides the work and do
 
 ### Lab 1.7: Object-oriented programming
 
-- [ ] **R-1.7** Research: when a function is enough and a class is not needed (Scope 1.7).
-- [ ] **B-1.7.1** Write the `OrderRecord` class with `__init__`, `total()`, a readable `__repr__`, and a `ValueError` for non-positive quantity (Lab 1.7 step 1).
-- [ ] **B-1.7.2** Add a class attribute counting records created; show how it differs from an instance attribute and what assigning through an instance does (Lab 1.7 step 2).
-- [ ] **B-1.7.3** Write the `OrderReader` base class and the `TextOrderReader` and `CsvOrderReader` subclasses, using `super()` in at least one (Lab 1.7 step 3).
-- [ ] **B-1.7.4** Write `load_orders(reader)` that works unchanged with either reader (Lab 1.7 step 4).
-- [ ] **B-1.7.5** Write the `OrderPipeline(reader, writer)` class with a `run()` method returning valid and rejected counts (Lab 1.7 step 5).
+- [x] **R-1.7** Research: when a function is enough and a class is not needed (Scope 1.7).
+- [x] **B-1.7.1** Write the `OrderRecord` class with `__init__`, `total()`, a readable `__repr__`, and a `ValueError` for non-positive quantity (Lab 1.7 step 1).
+- [x] **B-1.7.2** Add a class attribute counting records created; show how it differs from an instance attribute and what assigning through an instance does (Lab 1.7 step 2).
+- [x] **B-1.7.3** Write the `OrderReader` base class and the `TextOrderReader` and `CsvOrderReader` subclasses, using `super()` in at least one (Lab 1.7 step 3).
+- [x] **B-1.7.4** Write `load_orders(reader)` that works unchanged with either reader (Lab 1.7 step 4).
+- [x] **B-1.7.5** Write the `OrderPipeline(reader, writer)` class with a `run()` method returning valid and rejected counts (Lab 1.7 step 5).
 - [ ] **B-1.7.6** (Optional) Rewrite `OrderRecord` with the standard library `dataclasses` module (Lab 1.7 optional step).
 
 ### Lab 1.8: Modular Python programming
 
 - [ ] **R-1.8** Research: how a circular import fails and how to remove it (Scope 1.8).
-- [ ] **B-1.8.1** Convert the Lab 1.4 to 1.7 code into the `orders_pipeline/` package with the seven listed files (Lab 1.8 step 1).
-- [ ] **B-1.8.2** Give every module a one-sentence single-responsibility docstring (Lab 1.8 step 2).
-- [ ] **B-1.8.3** Deliberately create a circular import, read the error, fix it by moving shared code, and record it in the debugging log (Lab 1.8 step 3).
-- [ ] **B-1.8.4** Add `check_pipeline.py` with three `assert` statements: counts add up, no negative totals, rejected rows have reasons (Lab 1.8 step 4).
-- [ ] **B-1.8.5** Run the package from the container terminal and confirm it produces the same `clean_orders.csv` as Lab 1.4 (Lab 1.8 step 5).
-- [ ] **B-1.8.6** Import from the package in the notebook with cells of about 10 lines or fewer, and show the folder tree and one module's contents (Lab 1.8 step 6).
+- [x] **B-1.8.1** Convert the Lab 1.4 to 1.7 code into the `orders_pipeline/` package with the seven listed files (Lab 1.8 step 1).
+- [x] **B-1.8.2** Give every module a one-sentence single-responsibility docstring (Lab 1.8 step 2).
+- [x] **B-1.8.3** Deliberately create a circular import, read the error, fix it by moving shared code, and record it in the debugging log (Lab 1.8 step 3).
+- [x] **B-1.8.4** Add `check_pipeline.py` with three `assert` statements: counts add up, no negative totals, rejected rows have reasons (Lab 1.8 step 4).
+- [x] **B-1.8.5** Run the package from the container terminal and confirm it produces the same `clean_orders.csv` as Lab 1.4 (Lab 1.8 step 5).
+- [x] **B-1.8.6** Import from the package in the notebook with cells of about 10 lines or fewer, and show the folder tree and one module's contents (Lab 1.8 step 6).
 
 ## Verify
 
