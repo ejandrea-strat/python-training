@@ -25,9 +25,9 @@ There is no solutions file for this stage. This checklist guides the work and do
 
 ### Lab 2.1: NumPy
 
-- [ ] **R-2.1** Research: what "axis" means for each aggregation (Scope 2.1).
-- [ ] **B-2.1.1** Create a 1,000,000-element array, compute its mean with NumPy and with a Python loop, time both with `%timeit`, and record the ratio (Lab 2.1 step 1).
-- [ ] **B-2.1.2** Build a 5x4 array of simulated daily sales and compute the total per store, the average per week, and a boolean mask of cells above the overall mean (Lab 2.1 step 2).
+- [] **R-2.1** Research: what "axis" means for each aggregation (Scope 2.1).
+- [x] **B-2.1.1** Create a 1,000,000-element array, compute its mean with NumPy and with a Python loop, time both with `%timeit`, and record the ratio (Lab 2.1 step 1).
+- [x] **B-2.1.2** Build a 5x4 array of simulated daily sales and compute the total per store, the average per week, and a boolean mask of cells above the overall mean (Lab 2.1 step 2).
 - [ ] **B-2.1.3** Demonstrate broadcasting by applying a per-store tax rate vector to the matrix (Lab 2.1 step 3).
 
 ### Lab 2.2: pandas basics
