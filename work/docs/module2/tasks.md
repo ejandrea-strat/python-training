@@ -25,17 +25,17 @@ There is no solutions file for this stage. This checklist guides the work and do
 
 ### Lab 2.1: NumPy
 
-- [] **R-2.1** Research: what "axis" means for each aggregation (Scope 2.1).
+- [x] **R-2.1** Research: what "axis" means for each aggregation (Scope 2.1).
 - [x] **B-2.1.1** Create a 1,000,000-element array, compute its mean with NumPy and with a Python loop, time both with `%timeit`, and record the ratio (Lab 2.1 step 1).
 - [x] **B-2.1.2** Build a 5x4 array of simulated daily sales and compute the total per store, the average per week, and a boolean mask of cells above the overall mean (Lab 2.1 step 2).
-- [ ] **B-2.1.3** Demonstrate broadcasting by applying a per-store tax rate vector to the matrix (Lab 2.1 step 3).
+- [x] **B-2.1.3** Demonstrate broadcasting by applying a per-store tax rate vector to the matrix (Lab 2.1 step 3).
 
 ### Lab 2.2: pandas basics
 
-- [ ] **R-2.2** Research: how one dtype per column (DataFrame) differs from one dtype per array (NumPy) (Scope 2.2).
-- [ ] **B-2.2.1** Create a synthetic `sales.csv` in `data/` with at least 200 rows and deliberately planted missing values and duplicates (Lab 2.2 step 1).
-- [ ] **B-2.2.2** Load it and report shape, dtypes, nulls per column, duplicate count, and numeric summary statistics (Lab 2.2 step 2).
-- [ ] **B-2.2.3** Select rows with `loc`, `iloc`, and a boolean filter, one example of each (Lab 2.2 step 3).
+- [x] **R-2.2** Research: how one dtype per column (DataFrame) differs from one dtype per array (NumPy) (Scope 2.2).
+- [x] **B-2.2.1** Create a synthetic `sales.csv` in `data/` with at least 200 rows and deliberately planted missing values and duplicates (Lab 2.2 step 1).
+- [x] **B-2.2.2** Load it and report shape, dtypes, nulls per column, duplicate count, and numeric summary statistics (Lab 2.2 step 2).
+- [x] **B-2.2.3** Select rows with `loc`, `iloc`, and a boolean filter, one example of each (Lab 2.2 step 3).
 
 ### Lab 2.3: Transformation mini project
 
