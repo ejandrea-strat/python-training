@@ -41,9 +41,9 @@ There is no solutions file for this stage. This checklist guides the work and do
 
 - [ ] **R-2.3** Research: when a per-row `apply` is still justified versus a vectorized operation (Scope 2.3).
 - [x] **B-2.3.1** Remove duplicates and decide and document the treatment for each column's missing values (Lab 2.3 step 1).
-- [ ] **B-2.3.2** Add the `revenue` column and a `size_band` column based on revenue (Lab 2.3 step 2).
-- [ ] **B-2.3.3** Produce revenue by category, top 5 customers by revenue, and average order value by month, keeping dates as plain strings (Lab 2.3 step 3).
-- [ ] **B-2.3.4** Add three `assert` statements about the cleaned data (Lab 2.3 step 4).
+- [x] **B-2.3.2** Add the `revenue` column and a `size_band` column based on revenue (Lab 2.3 step 2).
+- [x] **B-2.3.3** Produce revenue by category, top 5 customers by revenue, and average order value by month, keeping dates as plain strings (Lab 2.3 step 3).
+- [x] **B-2.3.4** Add three `assert` statements about the cleaned data (Lab 2.3 step 4).
 - [ ] **B-2.3.5** Export a cleaned CSV and a summary CSV to `data/` (Lab 2.3 step 5).
 
 ## Verify
