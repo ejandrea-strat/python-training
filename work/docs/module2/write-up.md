@@ -1,4 +1,4 @@
-# M2 Write-Up: Python Advance
+# M2 Write-Up: Python Advanced
 
 ## 1. Deliverable & Evidence
 
