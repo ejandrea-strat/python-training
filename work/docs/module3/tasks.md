@@ -26,11 +26,11 @@ There is no solutions file for this stage. This checklist guides the work and do
 
 ### Lab 3.1: Datetime
 
-- [ ] **R-3.1** Research: why silent parsing failures are dangerous and how to make them loud (Scope 3.1).
-- [ ] **B-3.1.1** Create 30 timestamp strings in three formats, parse each group with an explicit format, and count the NaTs produced by a deliberately bad value (Lab 3.1 step 1).
-- [ ] **B-3.1.2** Make the datetimes timezone-aware, convert to UTC, and show both side by side (Lab 3.1 step 2).
-- [ ] **B-3.1.3** Derive year, month, weekday, and hour columns, and resample to daily counts (Lab 3.1 step 3).
-- [ ] **B-3.1.4** Compute the time between two events with `timedelta` (Lab 3.1 step 4).
+- [x] **R-3.1** Research: why silent parsing failures are dangerous and how to make them loud (Scope 3.1).
+- [x] **B-3.1.1** Create 30 timestamp strings in three formats, parse each group with an explicit format, and count the NaTs produced by a deliberately bad value (Lab 3.1 step 1).
+- [x] **B-3.1.2** Make the datetimes timezone-aware, convert to UTC, and show both side by side (Lab 3.1 step 2).
+- [x] **B-3.1.3** Derive year, month, weekday, and hour columns, and resample to daily counts (Lab 3.1 step 3).
+- [x] **B-3.1.4** Compute the time between two events with `timedelta` (Lab 3.1 step 4).
 
 ### Lab 3.2: JSON, CSV, and Excel
 
