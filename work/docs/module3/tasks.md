@@ -34,10 +34,10 @@ There is no solutions file for this stage. This checklist guides the work and do
 
 ### Lab 3.2: JSON, CSV, and Excel
 
-- [ ] **R-3.2** Research: what changes when data makes a round trip between formats (Scope 3.2).
-- [ ] **B-3.2.1** Create a small nested JSON file, flatten it to one row per item, and save it to CSV and Excel (Lab 3.2 step 1).
-- [ ] **B-3.2.2** Read the CSV back with explicit `dtype` and `usecols`, read the Excel file back, and compare the three versions (Lab 3.2 step 2).
-- [ ] **B-3.2.3** Read a larger CSV in chunks and compute a running total (Lab 3.2 step 3).
+- [x] **R-3.2** Research: what changes when data makes a round trip between formats (Scope 3.2).
+- [x] **B-3.2.1** Create a small nested JSON file, flatten it to one row per item, and save it to CSV and Excel (Lab 3.2 step 1).
+- [x] **B-3.2.2** Read the CSV back with explicit `dtype` and `usecols`, read the Excel file back, and compare the three versions (Lab 3.2 step 2).
+- [x] **B-3.2.3** Read a larger CSV in chunks and compute a running total (Lab 3.2 step 3).
 
 ### Lab 3.3: Avro
 
