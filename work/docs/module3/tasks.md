@@ -49,13 +49,13 @@ There is no solutions file for this stage. This checklist guides the work and do
 
 ### Lab 3.4: Web scraping (local sandbox)
 
-- [ ] **R-3.4** Research: the difference between "allowed by robots.txt" and "authorized" (Scope 3.4).
-- [ ] **B-3.4.1** Add the `sandbox-site` service under the `scrape` profile and start it (Lab 3.4 step 1).
-- [ ] **B-3.4.2** Fetch and parse the site's `robots.txt`, and write down what it allows for the trainee's user agent and the date checked (Lab 3.4 step 2).
-- [ ] **B-3.4.3** Scrape one listing page, extracting at least 4 fields per item (Lab 3.4 step 3).
-- [ ] **B-3.4.4** Follow pagination across all pages with a delay and a descriptive user-agent string (Lab 3.4 step 4).
-- [ ] **B-3.4.5** Add a check that skips disallowed URLs and show it refusing the `/admin/` path (Lab 3.4 step 5).
-- [ ] **B-3.4.6** Clean the results (price to float) and save them to `data/products.csv` (Lab 3.4 step 6).
+- [x] **R-3.4** Research: the difference between "allowed by robots.txt" and "authorized" (Scope 3.4).
+- [x] **B-3.4.1** Add the `sandbox-site` service under the `scrape` profile and start it (Lab 3.4 step 1).
+- [x] **B-3.4.2** Fetch and parse the site's `robots.txt`, and write down what it allows for the trainee's user agent and the date checked (Lab 3.4 step 2).
+- [x] **B-3.4.3** Scrape one listing page, extracting at least 4 fields per item (Lab 3.4 step 3).
+- [x] **B-3.4.4** Follow pagination across all pages with a delay and a descriptive user-agent string (Lab 3.4 step 4).
+- [x] **B-3.4.5** Add a check that skips disallowed URLs and show it refusing the `/admin/` path (Lab 3.4 step 5).
+- [x] **B-3.4.6** Clean the results (price to float) and save them to `data/products.csv` (Lab 3.4 step 6).
 - [ ] **B-3.4.7** (Optional) Change `robots.txt`, restart the container, and show the scraper's behavior changing without code edits (Lab 3.4 optional row).
 
 ## Verify
