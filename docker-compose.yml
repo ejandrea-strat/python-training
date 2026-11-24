@@ -8,3 +8,11 @@ services:
       - ./work:/workspace/work
       - ./data:/workspace/data
     env_file: .env
+
+  sandbox-site:
+    image: nginx:1.28-alpine
+    profiles: ["scrape"]
+    volumes:
+      - "./sandbox_site:/usr/share/nginx/html:ro"
+    ports:
+      - "8080:80"

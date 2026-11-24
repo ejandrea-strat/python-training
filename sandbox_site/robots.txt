@@ -1,0 +1,4 @@
+# robots.txt for the NOIRE practice shop
+User-agent: *
+Disallow: /admin/
+Crawl-delay: 1
