@@ -41,11 +41,11 @@ There is no solutions file for this stage. This checklist guides the work and do
 
 ### Lab 3.3: Avro
 
-- [ ] **R-3.3** Research: why a schema-carrying format matters for pipelines (Scope 3.3).
-- [ ] **B-3.3.1** Define an Avro schema for the flattened order-item table with one optional field (Lab 3.3 step 1).
-- [ ] **B-3.3.2** Write `orders.avro`, read it back, and load it into a DataFrame (Lab 3.3 step 2).
-- [ ] **B-3.3.3** Compare file sizes of CSV, JSON, and Avro for the same data in a table (Lab 3.3 step 3).
-- [ ] **B-3.3.4** Add a field to the schema and show reading old data with the new schema (Lab 3.3 step 4).
+- [x] **R-3.3** Research: why a schema-carrying format matters for pipelines (Scope 3.3).
+- [x] **B-3.3.1** Define an Avro schema for the flattened order-item table with one optional field (Lab 3.3 step 1).
+- [x] **B-3.3.2** Write `orders.avro`, read it back, and load it into a DataFrame (Lab 3.3 step 2).
+- [x] **B-3.3.3** Compare file sizes of CSV, JSON, and Avro for the same data in a table (Lab 3.3 step 3).
+- [x] **B-3.3.4** Add a field to the schema and show reading old data with the new schema (Lab 3.3 step 4).
 
 ### Lab 3.4: Web scraping (local sandbox)
 
